@@ -194,9 +194,9 @@ html[dir="rtl"] .marquee ul{animation-name:scroll-rtl}
 .principal-card{display:grid;grid-template-columns:260px 1fr;gap:40px;align-items:center;background:#fff;border-radius:36px;padding:40px;box-shadow:var(--shadow);position:relative}
 .principal-card::before{content:"“";position:absolute;inset-inline-end:36px;top:-10px;font-family:Georgia,serif;font-size:10rem;color:var(--sky-2);line-height:1}
 .pc-photo{position:relative;display:flex;flex-direction:column;align-items:center;gap:12px}
-.avatar{width:220px;height:220px;border-radius:50%;border:8px solid var(--orange-soft);outline:4px dashed var(--orange);outline-offset:6px}
+.avatar{width:220px;height:220px;border-radius:50%;object-fit:cover;object-position:center 30%;background:var(--sky);border:8px solid var(--orange-soft);outline:4px dashed var(--orange);outline-offset:6px}
 .pc-body blockquote{margin:0 0 14px;font-size:1.25rem;color:var(--navy);font-weight:700;position:relative}
-.pc-body blockquote p:last-child{font-weight:600;font-size:1.02rem;color:var(--muted)}
+.pc-body blockquote p+p{font-weight:600;font-size:1.02rem;color:var(--muted)}
 .pc-name{margin-bottom:8px}
 .pc-name small{color:var(--muted);font-weight:700}
 
